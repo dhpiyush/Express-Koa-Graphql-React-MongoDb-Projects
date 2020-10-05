@@ -1,0 +1,19 @@
+{
+  "Mongo": {
+    "dbConfig": {
+      "host": "prod-db-server"
+    },
+    "credit": {
+      "initialDays": 30
+    }
+  },
+  "email-username": "xyz",
+  "email-password": "yyy",
+  "emailHost": "smtp.mailtrap.io",
+  "port": 25,
+  "dataBase":{
+    "url": "mongodb+srv://m001-student:<PASSWORD>@sandbox.wxjro.mongodb.net/video?retryWrites=true&w=majority",
+    "password": "m001-mongodb-basics"
+  },
+  "stripe-secret-key": "sk_test_51HPQv6ARkJnFPlOznhLh5PS8xeQuMXbhZ0wSYl7ZaTvCQJDQpoo9NVIRyXFx9jHM4HAch33SuaNrQE3dFUaZYQPj00dyOD4249"
+}

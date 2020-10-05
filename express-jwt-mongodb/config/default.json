@@ -1,0 +1,23 @@
+{
+  
+  "Mongo": {
+    "dbConfig": {
+      "host": "localhost",
+      "port": 5984,
+      "dbName": "customers"
+    },
+    "credit": {
+      "initialLimit": 100,
+      
+      "initialDays": 1
+    }
+  },
+  "API_PORT" : 3001,
+  "jwt-token" : "my_secret_2020_node",
+  "jwt-expires-in": "9d",
+  "jwt-cookie-expires": 90,
+  "send-grid-username" : "",
+  "send-grid-password": "",
+  "stripe-webhook-secret" : "whsec_VrJzsxcxH8iIpuGeOgBG81BDjOZNtLik",
+  "stripe-secret-key": "sk_test_51HPQv6ARkJnFPlOznhLh5PS8xeQuMXbhZ0wSYl7ZaTvCQJDQpoo9NVIRyXFx9jHM4HAch33SuaNrQE3dFUaZYQPj00dyOD4249"
+}
